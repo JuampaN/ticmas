@@ -1,0 +1,47 @@
+*{
+    color: blue;
+}
+
+p, span{
+    color: red;
+    width: 300px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-left: 10px;
+    /* se puede hacer todo en una sola línea de código
+    EN EL SENTIDO DE LAS AGUAJAS DEL RELOJ
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+    */
+    padding: 30px 15px 25px 20px;
+    font-weight: bold;
+    color: gray;
+}
+section{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+#mi_parrafo{
+    color: yellow;
+    font-size: 23px;
+    border: 1px solid orange;
+}
+
+.estaesmiclase{
+    font-weight: bold;
+    color: lightblue;
+}
+/*
+section h1{
+    font-weight: 60px;
+}
+*/
