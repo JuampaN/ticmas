@@ -3,7 +3,7 @@
 }
 
 p, span{
-    color: red;
+    color: white;
     width: 300px;
 }
 h1{
@@ -45,3 +45,7 @@ section h1{
     font-weight: 60px;
 }
 */
+body{
+    background-color: blue;
+    color: white;
+}
