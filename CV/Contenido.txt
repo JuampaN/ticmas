@@ -1,0 +1,25 @@
+FASE 1
+ETAPA 1
+El CV comprende información personal, experiencia y habilidades.
+
+Te proponemos usar esta web, de la cual podrás obtener datos personales de personas ficticias. 
+https://randomuser.me
+Si te animás, podés hasta incluir la foto que proporciona el sitio a modo de ejemplo.
+
+ETAPA 2
+Elegir qué elementos HTML le darán vida.
+Considerá utilizar la barra de navegación con links ancla, listas desordenadas, foto de perfil, entre otros elementos que hagan que tu CV sea único
+
+ETAPA 3
+CSS
+Podés importar tipografías de Google Fonts, utilizar una foto tuya y usar Font Awesome para emplear íconos que ilustren el proyecto.
+https://fonts.google.com
+https://fontawesome.com
+
+
+FASE 2
+JavaScript, de manera tal que sumemos comportamientos a lo desarrollado. Por ejemplo, dar información complementaria cuando el usuario haga clic sobre determinados botones.
+(Usá funciones que permitan tener un código fuente reutilizable y mantenible.)
+
+FINAL
+Entrega del proyecto
