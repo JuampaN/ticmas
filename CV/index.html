@@ -6,27 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <header>
-            <h1>Curriculum Vitae</h1><br>
+            <h1 id="CV">Curriculum Vitae</h1><br>
             <div>
                 <img src="" alt="foto de la persona" id="foto">
-                <h2>Hola! Mi nombre es <span id="nombre"></span></h2>
+                <h2>Mi nombre es <span id="nombre"></span></h2>
             </div>
             <div>
                 <p>Tengo <span id="edad"></span> años y soy de <span id="ciudad"></span></p>
-                <p>Correo: <span id="correo"></span></p>
-                <p>Teléfono: <span id="telefono"></span></p>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i> <span id="correo"></span></p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> <span id="telefono"></span></p>
             </div>
         
         </header>
-        <aside>Habilidades</aside>
-        <article>Experiencia</article>
-        <footer>pie</footer>
+        <aside>
+            <h2><i class="fa-solid fa-marker"></i> Habilidades y Aptitudes</h2>
+            <a class="button" id="boton_mostrar" onclick="mostrar_descripciones()"> Mostrar descripción </a>
+            <div>
+                <dl>
+                    <dt><i class="fa-solid fa-check-square"></i> Liderazgo</dt><dd class="desc">Soltura en la integración y coordinación de equipos de trabajo multidisciplinarios. Disposición para la toma efectiva de decisiones en consulta y comunicación con el grupo.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Manejo de grupos</dt><dd class="desc">Capacidad de oratoria y exposición formal de motivos. Buena disposición para la comunicación institucional y el manejo de audiencias.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Capacidad de análisis</dt><dd class="desc">Soltura en el manejo de informaciones complejas y análisis de escenarios, así como la obtención de conclusiones y la previsión de futuras necesidades.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Negociación</dt><dd class="desc">Buena disposición para las negociaciones y la mediación en escenarios de conflicto y de presión. Capacidad de persuasión.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Trabajo en equipo</dt><dd class="desc">Buenas relaciones interpersonales, empatía y canalización productiva de situaciones de stress.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Resolución de problemas</dt><dd class="desc">Capacidad de pensamiento independiente y creativo, think-outside-the-box y comodidad en los cambios frecuentes de perspectiva. Alta adaptabilidad y versatilidad laborales.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Ganas de crecer</dt><dd class="desc">Facilidad para el aprendizaje y versatilidad, disposición para escenarios retadores y para salir de la zona de confort.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Ganas de crecer</dt><dd class="desc">Facilidad para el aprendizaje y versatilidad, disposición para escenarios retadores y para salir de la zona de confort.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Flexibilidad</dt><dd class="desc">Soltura en el manejo de situaciones irregulares y capacidad de pensamiento independiente. Comodidad con situaciones de improvisación y entornos inestables.</dd>
+                    <dt><i class="fa-solid fa-check-square"></i> Capacidad de organización</dt><dd class="desc">Buen manejo de la multiplicidad y la información divergente, así como de agendas, organigramas y diagramas de flujo. Alta tolerancia a la frustración y al estrés.</dd>
+                </dl>
+            </div>
+        </aside>
+        <article>
+            <h2><i class="fa-solid fa-business-time"></i> Experiencia Laboral</h2>
+            <div>
+                <h3>Vicepresidente del departamento de marketing - Digisat Telecomunicaciones, Buenos Aires</h3>
+                <h4>Octubre 2021 - Actualidad</h4>
+                <ul>
+                    <li>Gestionar eficazmente los proyectos creativos, promoviendo una imagen corporativa superior.</li>
+                    <li>Diseñar e implementar campañas de correo directo, generando un incremento en las ventas del 10% por trimestre.</li>
+                    <li>Desarrollar y mantener relaciones internas y externas, que fueron cruciales para la mejora y el éxito de la empresa.</li>
+                    <li>Evaluar las estrategias de la competencia, mientras se trabaja ávidamente para aumentar nuestra propia productividad.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Consultor de marketing online - Freelance</h3>
+                <h4>Enero 2014 - Diciembre 2021</h4>
+                <ul>
+                    <li>Investigar las motivaciones de los usuarios y consumidores para comprender mejor los objetivos de la empresa.</li>
+                    <li>Proponer estrategias cuidadosamente planificadas para mejorar el negocio de la empresa.</li>
+                    <li>Fomentar las relaciones para mantener a los clientes existentes, mientras se desarrollan nuevas relaciones para atraer a clientes potenciales.</li>
+                    <li>Planear, ejecutar y dirigir tácticas de marketing online, lo que generó una gran variedad de avances de la compañía.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Director del Departamento de Ventas y Marketing - Impresiones Júpiter, Buenos Aires</h3>
+                <h4>Octubre 2010 - Diciembre 2013</h4>
+                <ul>
+                    <li>Supervisar las ventas, el marketing y los objetivos de desarrollo empresarial.</li>
+                    <li>Planear estrategias para desarrollar nuevos mercados para la impresión.</li>
+                    <li>Planificar y ejecutar con éxito más de 15 ferias comerciales.</li>
+                    <li>Aumentar la presencia de la marca, originando un aumento de las ventas y relaciones más ventajosas.</li>
+                </ul>
+            </div>
+        </article>
+        <footer>
+            <a class="button" href="#CV">Volver Arriba</a>
+        </footer>
     </main>
 
     <script src="funciones.js"></script>
+    <script src="https://kit.fontawesome.com/2640acb1aa.js" crossorigin="anonymous"></script>
 </body>
 </html> 
