@@ -1,0 +1,33 @@
+main{
+    display: grid;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-columns:
+        [sidebar-star] 1fr
+        [sidebar-end contenido-star] 2fr
+        [contenido-end];
+    grid-template-rows: 
+        [header-star] 1fr
+        [header-end contenido-star] 2fr
+        [contenido-end footer-star] 1fr;
+}
+
+main > *{
+    font-family: sans-serif;
+    background-color: goldenrod;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+
+
+header{
+    grid-column: sidebar-star / contenido-end;
+}
+aside{
+    grid-row: header-end / footer-star;
+}
+footer{
+    grid-column: sidebar-star / contenido-end;
+}
