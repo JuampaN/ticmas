@@ -12,8 +12,14 @@
 </head>
 <body>
     <main>
+        <!-- Para la estructura de la página use GRID divivido en 3 campos por la información solicitada
+        Header con los datos personales de la persona
+        Aside con la descripción de habilidades y aptitudes
+        Article con el historial laboral y también el
+        Footer con el botón para volver arriba -->
+
         <header>
-            <h1 id="CV">Curriculum Vitae</h1><br>
+            <h1 id="CV">Curriculum Vitae</h1><br> <!-- Con información extraida de randomuser.me -->
             <div>
                 <img src="" alt="foto de la persona" id="foto">
                 <h2>Mi nombre es <span id="nombre"></span></h2>
@@ -23,12 +29,16 @@
                 <p><i class="fa-sharp fa-solid fa-envelope"></i> <span id="correo"></span></p>
                 <p><i class="fa-sharp fa-solid fa-phone"></i> <span id="telefono"></span></p>
             </div>
-        
+
         </header>
+
+
         <aside>
             <h2><i class="fa-solid fa-marker"></i> Habilidades y Aptitudes</h2>
             <a class="button" id="boton_mostrar" onclick="mostrar_descripciones()"> Mostrar descripción </a>
             <div>
+                <!-- En vez de usar listas desordenadas me pareció más apropiado utilizar listas de definiciones -->
+                <!-- Que a la vez me permiten agregar la funcionalidad de mostrarlas u ocultar la descripción -->
                 <dl>
                     <dt><i class="fa-solid fa-check-square"></i> Liderazgo</dt><dd class="desc">Soltura en la integración y coordinación de equipos de trabajo multidisciplinarios. Disposición para la toma efectiva de decisiones en consulta y comunicación con el grupo.</dd>
                     <dt><i class="fa-solid fa-check-square"></i> Manejo de grupos</dt><dd class="desc">Capacidad de oratoria y exposición formal de motivos. Buena disposición para la comunicación institucional y el manejo de audiencias.</dd>
@@ -43,7 +53,9 @@
                 </dl>
             </div>
         </aside>
-        <article>
+
+
+        <article> <!-- Aquí si utilicé listas desordenadas para el detalle de cada trabajo -->
             <h2><i class="fa-solid fa-business-time"></i> Experiencia Laboral</h2>
             <div>
                 <h3>Vicepresidente del departamento de marketing - Digisat Telecomunicaciones, Buenos Aires</h3>
@@ -76,7 +88,9 @@
                 </ul>
             </div>
         </article>
-        <footer>
+
+
+        <footer> <!-- Aprovecho la sección para utilizar link ancla -->
             <a class="button" href="#CV">Volver Arriba</a>
         </footer>
     </main>

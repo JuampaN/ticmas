@@ -14,22 +14,7 @@ const informacionUsuario = (data) =>{
                                                 data.results[0].location.state+" - "+
                                                 data.results[0].location.country
 }
-/*
-function mostrar_descripciones(){
-    const elementos = document.getElementsByClassName("desc");
-    if (elementos[0].style.display = "none"){
-        for (let i=0; i < elementos.length; i++){
-            elementos[i].style.display = "block";
-        }
-        document.getElementById("boton_mostrar").innerHTML="Ocultar descripción";
-    } else {
-        for (let i=0; i < elementos.length; i++){
-            elementos[i].style.display = "none";
-        }
-        document.getElementById("boton_mostrar").innerHTML="Mostrar descripción";
-    }
-};
-*/
+
 var b = new Boolean(false);
 function mostrar_descripciones(){
     const elementos = document.getElementsByClassName("desc");
